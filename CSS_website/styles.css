@@ -1,0 +1,14 @@
+/* ===== Defaults ===== */
+nav, header, footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+/* ===== Navbar ===== */
+nav {
+    width: 100%;
+}
