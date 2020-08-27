@@ -29,3 +29,18 @@ ul.topnav li {
 ul.topnav li.topnav-right {
     float: right;
 }
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
