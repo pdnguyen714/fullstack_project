@@ -11,4 +11,10 @@ body {
 /* ===== Navbar ===== */
 nav {
     width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
 }
