@@ -48,3 +48,10 @@ ul.topnav li a:hover {
 ul.topnav li.dropdownIcon {
     display: none;
 }
+
+/* ===== Mobile ===== */
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+}
