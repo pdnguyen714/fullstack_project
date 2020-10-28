@@ -15,7 +15,7 @@
                 <li><a href="#about">About</a></li>
                 <li class="topnav-right"><a href="#signup">Sign Up</a></li>
                 <li class="topnav-right"><a href="#signin">Sign In</a></li>
-                <li class="dropdownIcon"><a href="" onclick="">&#9776;
+                <li class="dropdownIcon"><a href="" onclick="dropdownMenu()">&#9776;
                 </a></li>
             </ul>
         </nav>
@@ -23,6 +23,11 @@
     <script>
         function dropdownMenu() {
             var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
     </script>
 

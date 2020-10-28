@@ -59,4 +59,12 @@ ul.topnav li.dropdownIcon {
         display: block;
         float: right;
     }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+    }
 }
