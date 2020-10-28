@@ -54,5 +54,8 @@ ul.topnav li.dropdownIcon {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+    }
 }
-/* test */
